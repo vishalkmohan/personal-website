@@ -11,8 +11,12 @@
 
 .navsection{
  	background-color: #ffffff;
- 	padding: 1em;
  } 
+
+ img{
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
 
 .mainbody{
 	display:grid;
@@ -23,3 +27,12 @@
 	background-color: #ffffff;
 	padding:1em;
 }
+
+.list{
+	list-style:none;
+	font-weight: bold;
+	padding-top: 1em;
+	text-align:center;
+	padding-right: 10%;
+}
+
