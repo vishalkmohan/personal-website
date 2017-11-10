@@ -1,0 +1,25 @@
+#outline{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main{
+	display:grid;
+	grid-template-columns: 30% 70%;
+	grid-column-gap:1em;
+}
+
+.navsection{
+ 	background-color: #ffffff;
+ 	padding: 1em;
+ } 
+
+.mainbody{
+	display:grid;
+	grid-template-rows: 50% 50%;
+	grid-row-gap:1em;
+}
+.mainbody>div{
+	background-color: #ffffff;
+	padding:1em;
+}
