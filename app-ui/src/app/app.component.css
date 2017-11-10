@@ -6,15 +6,20 @@
 .main{
 	display:grid;
 	grid-template-columns: 30% 70%;
-	grid-column-gap:1em;
+	grid-column-gap:1em;	
 }
+.main1{
+	box-shadow: -5px -5px 5px #888888;
+}
+
 
 .navsection{
  	background-color: #ffffff;
+ 	box-shadow: -5px -5px 5px #888888;
  } 
 
  img{
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
   object-fit: cover;
 }
 
